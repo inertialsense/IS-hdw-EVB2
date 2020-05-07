@@ -17,8 +17,8 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=EVB-2.OutJob
 Description=
-TargetOutputMedium=PCB - PDFs
-VariantName=IS-EVB-r2.0.1-G2-R
+TargetOutputMedium=Assembly - Instructions
+VariantName=IS-EVB-r2.1.0-G2-R
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
@@ -33,12 +33,16 @@ OutputMedium3=PCB - Manufacturing Files
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Publish To Web
 OutputMedium4_Type=PublishToWeb
-OutputMedium5=Assembly - PDFs
+OutputMedium5=PCB - Instructions
 OutputMedium5_Type=Publish
-OutputMedium6=Assembly - Manufacturing Files
-OutputMedium6_Type=GeneratedFiles
-OutputMedium7=3D Model
-OutputMedium7_Type=Multimedia
+OutputMedium6=Assembly - PDFs
+OutputMedium6_Type=Publish
+OutputMedium7=Assembly - Manufacturing Files
+OutputMedium7_Type=GeneratedFiles
+OutputMedium8=Assembly - Instructions
+OutputMedium8_Type=Publish
+OutputMedium9=3D Model
+OutputMedium9_Type=Multimedia
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputCategory1=Documentation
@@ -52,6 +56,8 @@ OutputEnabled1_OutputMedium4=1
 OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=14.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
@@ -81,9 +87,11 @@ OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
-OutputEnabled2_OutputMedium5=1
-OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=1
 OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
@@ -101,6 +109,8 @@ OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
@@ -125,7 +135,7 @@ OutputName4=Schematic Prints
 OutputCategory4=Documentation
 OutputDocumentPath4=[Project Physical Documents]
 OutputVariantName4=ISR-DSP-VESU-02-01
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=3
 OutputEnabled4_OutputMedium3=0
@@ -133,6 +143,8 @@ OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=OutputConfigurationParameter1
@@ -147,9 +159,11 @@ OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
-OutputEnabled5_OutputMedium5=2
-OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=2
 OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=14.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration5_Name1=OutputConfigurationParameter1
@@ -188,8 +202,10 @@ OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
-OutputEnabled6_OutputMedium6=1
-OutputEnabled6_OutputMedium7=0
+OutputEnabled6_OutputMedium6=0
+OutputEnabled6_OutputMedium7=1
+OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True
@@ -206,6 +222,8 @@ OutputEnabled7_OutputMedium4=0
 OutputEnabled7_OutputMedium5=0
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=0
+OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
 OutputDefault7=0
 OutputType8=Drill
 OutputName8=Drill Drawing/Guides
@@ -220,6 +238,8 @@ OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
 OutputEnabled8_OutputMedium6=0
 OutputEnabled8_OutputMedium7=0
+OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=8.12|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=OutputConfigurationParameter1
@@ -242,14 +262,16 @@ OutputName9=Final Artwork Prints
 OutputCategory9=Fabrication
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=1
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
-OutputEnabled9_OutputMedium5=3
-OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=3
 OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=14.50|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration9_Name1=OutputConfigurationParameter1
@@ -342,6 +364,8 @@ OutputEnabled10_OutputMedium4=0
 OutputEnabled10_OutputMedium5=0
 OutputEnabled10_OutputMedium6=0
 OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908307~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777219~1,16777218~1,16842753~1,16777220~1,16842751~1,16973835~1,16973833~1,16973831~1,16908306~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -358,6 +382,8 @@ OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
 OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium9=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 PcbPrintPreferences11=
@@ -374,6 +400,8 @@ OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
 OutputEnabled12_OutputMedium7=0
+OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
@@ -388,8 +416,10 @@ OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
-OutputEnabled13_OutputMedium6=2
-OutputEnabled13_OutputMedium7=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=2
+OutputEnabled13_OutputMedium8=0
+OutputEnabled13_OutputMedium9=0
 OutputDefault13=0
 Configuration13_Name1=OutputConfigurationParameter1
 Configuration13_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Assembly Drawing Bottom=False|AddToAllPlots_Assembly Drawing Top=False|AddToAllPlots_Dimensions=False|AddToAllPlots_Layer_10=False|AddToAllPlots_Layer_11=False|AddToAllPlots_Layer_12=False|AddToAllPlots_Layer_13=False|AddToAllPlots_Layer_14=False|AddToAllPlots_Layer_15=False|AddToAllPlots_Layer_16=False|AddToAllPlots_Layer_17=False|AddToAllPlots_Layer_5=False|AddToAllPlots_Layer_6=False|AddToAllPlots_Layer_7=False|AddToAllPlots_Layer_8=False|AddToAllPlots_Layer_9=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 19|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=True|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
@@ -406,6 +436,8 @@ OutputEnabled14_OutputMedium4=0
 OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputEnabled14_OutputMedium7=0
+OutputEnabled14_OutputMedium8=0
+OutputEnabled14_OutputMedium9=0
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 PcbPrintPreferences14=
@@ -422,6 +454,8 @@ OutputEnabled15_OutputMedium4=0
 OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
 OutputEnabled15_OutputMedium7=0
+OutputEnabled15_OutputMedium8=0
+OutputEnabled15_OutputMedium9=0
 OutputDefault15=0
 OutputType16=BOM_PartType
 OutputName16=Bill of Materials OLD
@@ -436,6 +470,8 @@ OutputEnabled16_OutputMedium4=0
 OutputEnabled16_OutputMedium5=0
 OutputEnabled16_OutputMedium6=0
 OutputEnabled16_OutputMedium7=0
+OutputEnabled16_OutputMedium8=0
+OutputEnabled16_OutputMedium9=0
 OutputDefault16=0
 PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration16_Name1=Filter
@@ -465,6 +501,8 @@ OutputEnabled17_OutputMedium4=0
 OutputEnabled17_OutputMedium5=0
 OutputEnabled17_OutputMedium6=0
 OutputEnabled17_OutputMedium7=0
+OutputEnabled17_OutputMedium8=0
+OutputEnabled17_OutputMedium9=0
 OutputDefault17=0
 OutputType18=Design Rules Check
 OutputName18=Design Rules Check
@@ -479,6 +517,8 @@ OutputEnabled18_OutputMedium4=0
 OutputEnabled18_OutputMedium5=0
 OutputEnabled18_OutputMedium6=0
 OutputEnabled18_OutputMedium7=0
+OutputEnabled18_OutputMedium8=0
+OutputEnabled18_OutputMedium9=0
 OutputDefault18=0
 PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType19=Electrical Rules Check
@@ -494,6 +534,8 @@ OutputEnabled19_OutputMedium4=0
 OutputEnabled19_OutputMedium5=0
 OutputEnabled19_OutputMedium6=0
 OutputEnabled19_OutputMedium7=0
+OutputEnabled19_OutputMedium8=0
+OutputEnabled19_OutputMedium9=0
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType20=ReportHierarchy
@@ -509,6 +551,8 @@ OutputEnabled20_OutputMedium4=0
 OutputEnabled20_OutputMedium5=0
 OutputEnabled20_OutputMedium6=0
 OutputEnabled20_OutputMedium7=0
+OutputEnabled20_OutputMedium8=0
+OutputEnabled20_OutputMedium9=0
 OutputDefault20=0
 OutputType21=SimpleBOM
 OutputName21=Simple BOM
@@ -523,6 +567,8 @@ OutputEnabled21_OutputMedium4=0
 OutputEnabled21_OutputMedium5=0
 OutputEnabled21_OutputMedium6=0
 OutputEnabled21_OutputMedium7=0
+OutputEnabled21_OutputMedium8=0
+OutputEnabled21_OutputMedium9=0
 OutputDefault21=0
 OutputType22=SinglePinNetReporter
 OutputName22=Report Single Pin Nets
@@ -537,20 +583,24 @@ OutputEnabled22_OutputMedium4=0
 OutputEnabled22_OutputMedium5=0
 OutputEnabled22_OutputMedium6=0
 OutputEnabled22_OutputMedium7=0
+OutputEnabled22_OutputMedium8=0
+OutputEnabled22_OutputMedium9=0
 OutputDefault22=0
 OutputType23=CompositeDrill
 OutputName23=Dimensions and Layer Stack Up
 OutputCategory23=Fabrication
 OutputDocumentPath23=
 OutputVariantName23=
-OutputEnabled23=1
+OutputEnabled23=0
 OutputEnabled23_OutputMedium1=0
 OutputEnabled23_OutputMedium2=2
 OutputEnabled23_OutputMedium3=0
 OutputEnabled23_OutputMedium4=0
-OutputEnabled23_OutputMedium5=4
-OutputEnabled23_OutputMedium6=0
+OutputEnabled23_OutputMedium5=0
+OutputEnabled23_OutputMedium6=4
 OutputEnabled23_OutputMedium7=0
+OutputEnabled23_OutputMedium8=0
+OutputEnabled23_OutputMedium9=0
 OutputDefault23=0
 PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=8.12|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration23_Name1=OutputConfigurationParameter1
@@ -575,28 +625,28 @@ OutputEnabled24_OutputMedium2=0
 OutputEnabled24_OutputMedium3=0
 OutputEnabled24_OutputMedium4=0
 OutputEnabled24_OutputMedium5=0
-OutputEnabled24_OutputMedium6=3
-OutputEnabled24_OutputMedium7=0
+OutputEnabled24_OutputMedium6=0
+OutputEnabled24_OutputMedium7=3
+OutputEnabled24_OutputMedium8=0
+OutputEnabled24_OutputMedium9=0
 OutputDefault24=0
 PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration24_Name1=ColumnNameFormat
 Configuration24_Item1=CaptionAsName
-Configuration24_Name2=Filter
-Configuration24_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration24_Name3=General
-Configuration24_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\_IS\hdw\IS-hdw\altium\Templates\BOM IS Purchase.xltx|BatchMode=5|FormWidth=2120|FormHeight=1915|SupplierProdQty=100|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=USD|ViewType=0
-Configuration24_Name4=GroupOrder
-Configuration24_Item4=Fitted=True|Manufacturer Part Number=True
-Configuration24_Name5=OutputConfigurationParameter1
-Configuration24_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration24_Name6=PCBDocument
-Configuration24_Item6=FileName=EVB-2.PCBDOC
-Configuration24_Name7=PCBDocument2
-Configuration24_Item7=FileName=[PCB Document 1]
-Configuration24_Name8=SortOrder
-Configuration24_Item8=Fitted=Up|Designator=Up
-Configuration24_Name9=VisibleOrder
-Configuration24_Item9=Fitted=100|Designator=102|Quantity=62|Comment=67|Footprint=100|Description=106|LibRef=61|Manufacturer=113|Manufacturer Part Number=146|Supplier 1=100|Supplier Part Number 1=100|Supplier Subtotal 1=100|Supplier Unit Price 1=100
+Configuration24_Name2=General
+Configuration24_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\..\..\Templates\BOM IS Purchase.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1940|FormHeight=875|SupplierProdQty=100|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration24_Name3=GroupOrder
+Configuration24_Item3=Fitted=True|Manufacturer Part Number=True
+Configuration24_Name4=OutputConfigurationParameter1
+Configuration24_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration24_Name5=PCBDocument
+Configuration24_Item5=FileName=EVB-2.PCBDOC
+Configuration24_Name6=PCBDocument2
+Configuration24_Item6=FileName=[PCB Document 1]
+Configuration24_Name7=SortOrder
+Configuration24_Item7=Fitted=Up|Designator=Up
+Configuration24_Name8=VisibleOrder
+Configuration24_Item8=Fitted=100|Designator=102|Quantity=62|Comment=67|Footprint=100|Description=106|LibRef=61|Manufacturer=113|Manufacturer Part Number=146|Supplier 1=100|Supplier Part Number 1=100|Supplier Subtotal 1=100|Supplier Unit Price 1=100
 OutputType25=BOM_PartType
 OutputName25=BOM Assembly
 OutputCategory25=Report
@@ -610,26 +660,24 @@ OutputEnabled25_OutputMedium4=0
 OutputEnabled25_OutputMedium5=0
 OutputEnabled25_OutputMedium6=0
 OutputEnabled25_OutputMedium7=0
+OutputEnabled25_OutputMedium8=0
+OutputEnabled25_OutputMedium9=0
 OutputDefault25=0
 PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration25_Name1=ColumnNameFormat
 Configuration25_Item1=CaptionAsName
-Configuration25_Name2=Filter
-Configuration25_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration25_Name3=General
-Configuration25_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\_IS\hdw\IS-hdw\altium\Templates\BOM IS Assembly.xltx|BatchMode=5|FormWidth=2120|FormHeight=1479|SupplierProdQty=10|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=<none>
-Configuration25_Name4=GroupOrder
-Configuration25_Item4=Layer=True|Manufacturer Part Number=True|Fitted=True
-Configuration25_Name5=OutputConfigurationParameter1
-Configuration25_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration25_Name6=PCBDocument
-Configuration25_Item6=
-Configuration25_Name7=PCBDocument2
-Configuration25_Item7=FileName=[PCB Document 1]
-Configuration25_Name8=SortOrder
-Configuration25_Item8=Designator=Up
-Configuration25_Name9=VisibleOrder
-Configuration25_Item9=Fitted=100|Designator=102|Quantity=62|Comment=67|Footprint=100|Description=106|LibRef=61|Manufacturer=113|Manufacturer Part Number=146|Supplier 1=100|Supplier Part Number 1=100|Supplier Subtotal 1=100|Supplier Unit Price 1=100|Layer=100
+Configuration25_Name2=General
+Configuration25_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\..\..\Templates\BOM IS Assembly.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1940|FormHeight=946|SupplierProdQty=10|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration25_Name3=GroupOrder
+Configuration25_Item3=Layer=True|Manufacturer Part Number=True|Fitted=True
+Configuration25_Name4=OutputConfigurationParameter1
+Configuration25_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration25_Name5=PCBDocument2
+Configuration25_Item5=FileName=[PCB Document 1]
+Configuration25_Name6=SortOrder
+Configuration25_Item6=Designator=Up
+Configuration25_Name7=VisibleOrder
+Configuration25_Item7=Fitted=100|Designator=102|Quantity=62|Comment=67|Footprint=100|Description=106|LibRef=61|Manufacturer=113|Manufacturer Part Number=146|Supplier 1=100|Supplier Part Number 1=100|Supplier Subtotal 1=100|Supplier Unit Price 1=100|Layer=100
 OutputType26=PCB 3D Print
 OutputName26=PCB 3D Print - Top
 OutputCategory26=Documentation
@@ -640,9 +688,11 @@ OutputEnabled26_OutputMedium1=0
 OutputEnabled26_OutputMedium2=0
 OutputEnabled26_OutputMedium3=0
 OutputEnabled26_OutputMedium4=0
-OutputEnabled26_OutputMedium5=5
-OutputEnabled26_OutputMedium6=0
+OutputEnabled26_OutputMedium5=0
+OutputEnabled26_OutputMedium6=5
 OutputEnabled26_OutputMedium7=0
+OutputEnabled26_OutputMedium8=0
+OutputEnabled26_OutputMedium9=0
 OutputDefault26=0
 PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.58|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration26_Name1=OutputConfigurationParameter1
@@ -657,9 +707,11 @@ OutputEnabled27_OutputMedium1=0
 OutputEnabled27_OutputMedium2=0
 OutputEnabled27_OutputMedium3=0
 OutputEnabled27_OutputMedium4=0
-OutputEnabled27_OutputMedium5=6
-OutputEnabled27_OutputMedium6=0
+OutputEnabled27_OutputMedium5=0
+OutputEnabled27_OutputMedium6=6
 OutputEnabled27_OutputMedium7=0
+OutputEnabled27_OutputMedium8=0
+OutputEnabled27_OutputMedium9=0
 OutputDefault27=0
 PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.58|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration27_Name1=OutputConfigurationParameter1
@@ -676,11 +728,47 @@ OutputEnabled28_OutputMedium3=0
 OutputEnabled28_OutputMedium4=0
 OutputEnabled28_OutputMedium5=0
 OutputEnabled28_OutputMedium6=0
-OutputEnabled28_OutputMedium7=1
+OutputEnabled28_OutputMedium7=0
+OutputEnabled28_OutputMedium8=0
+OutputEnabled28_OutputMedium9=1
 OutputDefault28=0
 PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration28_Name1=OutputConfigurationParameter1
 Configuration28_Item1=Record=Pcb3DVideoRenderer|ShowFloorShadow=True|ViewConfigType=.config_3d|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\38732672\2CFG3D.BOTSOLDERMASKCOLOR\38732672\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000|CurrentPCB3DVideoID=3
+OutputType29=PCBDrawing
+OutputName29=Draftsman
+OutputCategory29=Documentation
+OutputDocumentPath29=EVB_PCB_Fab_Instructions.PCBDwf
+OutputVariantName29=
+OutputEnabled29=0
+OutputEnabled29_OutputMedium1=0
+OutputEnabled29_OutputMedium2=0
+OutputEnabled29_OutputMedium3=0
+OutputEnabled29_OutputMedium4=0
+OutputEnabled29_OutputMedium5=1
+OutputEnabled29_OutputMedium6=0
+OutputEnabled29_OutputMedium7=0
+OutputEnabled29_OutputMedium8=0
+OutputEnabled29_OutputMedium9=0
+OutputDefault29=0
+PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType30=PCBDrawing
+OutputName30=Draftsman
+OutputCategory30=Documentation
+OutputDocumentPath30=EVB_Assembly_Instructions.PCBDwf
+OutputVariantName30=
+OutputEnabled30=1
+OutputEnabled30_OutputMedium1=0
+OutputEnabled30_OutputMedium2=0
+OutputEnabled30_OutputMedium3=0
+OutputEnabled30_OutputMedium4=0
+OutputEnabled30_OutputMedium5=0
+OutputEnabled30_OutputMedium6=0
+OutputEnabled30_OutputMedium7=0
+OutputEnabled30_OutputMedium8=1
+OutputEnabled30_OutputMedium9=0
+OutputDefault30=0
+PageOptions30=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
 OutputFilePath2=C:\Jobs\ODA16xxxx_INERTIAL-SENSE_New_Project_AD16\uINS_r3-0\Manufacturing\VariantName_PCB\
@@ -710,7 +798,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-0\Manufacturing\VariantName_PCB\
+OutputFilePath3=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_PCB\
 ReleaseManaged3=0
 OutputBasePath3=Manufacturing\
 OutputPathMedia3==VariantName +"_PCB"
@@ -747,21 +835,21 @@ MarkNetLabels4=1
 MarkPortsId4=1
 WebOutputMediumType4=FS
 OutputDirectory4=C:\Program Files\Altium Designer Summer 09\Procerus Projects\GPS\Ublox\Ublox_v1.1r0\Project Outputs for Ublox_v1.1\WebOutput
-OutputFilePath5=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\VariantName_Assembly\
+OutputFilePath5=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_PCB\Fab Instructions - PCB.PDF
 ReleaseManaged5=0
 OutputBasePath5=Manufacturing\
-OutputPathMedia5==VariantName +"_Assembly"
-OutputPathMediaValue5==VariantName +"_Assembly"
-OutputPathOutputer5=[Output Custom]
-OutputPathOutputerPrefix5=PDF
-OutputPathOutputerValue5=PDF
-OutputFileName5=EVB-1.PDF
+OutputPathMedia5==VariantName +"_PCB"
+OutputPathMediaValue5==VariantName +"_PCB"
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=Fab Instructions - PCB.PDF
 OutputFileNameMulti5=
-UseOutputNameForMulti5=1
+UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=0
 PromptOverwrite5=0
-PublishMethod5=1
+PublishMethod5=0
 ZoomLevel5=50
 FitSCHPrintSizeToDoc5=1
 FitPCBPrintSizeToDoc5=1
@@ -774,61 +862,115 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-0\Manufacturing\VariantName_Assembly\
+OutputFilePath6=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\VariantName_Assembly\
 ReleaseManaged6=0
 OutputBasePath6=Manufacturing\
 OutputPathMedia6==VariantName +"_Assembly"
 OutputPathMediaValue6==VariantName +"_Assembly"
-OutputPathOutputer6=[Output Type]
-OutputPathOutputerPrefix6=
-OutputPathOutputerValue6=
-OutputFileName6=
+OutputPathOutputer6=[Output Custom]
+OutputPathOutputerPrefix6=PDF
+OutputPathOutputerValue6=PDF
+OutputFileName6=EVB-1.PDF
 OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
 OpenOutput6=0
-OutputFilePath7=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\uINS.wmv
+PromptOverwrite6=0
+PublishMethod6=1
+ZoomLevel6=50
+FitSCHPrintSizeToDoc6=1
+FitPCBPrintSizeToDoc6=1
+GenerateNetsInfo6=1
+MarkPins6=1
+MarkNetLabels6=1
+MarkPortsId6=1
+GenerateTOC6=1
+ShowComponentParameters6=1
+GlobalBookmarks6=0
+PDFACompliance6=Disabled
+PDFVersion6=Default
+OutputFilePath7=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_Assembly\
 ReleaseManaged7=0
 OutputBasePath7=Manufacturing\
-OutputPathMedia7=
-OutputPathMediaValue7=
+OutputPathMedia7==VariantName +"_Assembly"
+OutputPathMediaValue7==VariantName +"_Assembly"
 OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
-OutputFileName7=uINS.wmv
+OutputFileName7=
 OutputFileNameMulti7=
 UseOutputNameForMulti7=1
 OutputFileNameSpecial7=
-OpenOutput7=1
-PromptOverwrite7=1
-PublishMethod7=5
-ZoomLevel7=50
-FitSCHPrintSizeToDoc7=1
-FitPCBPrintSizeToDoc7=1
-GenerateNetsInfo7=1
-MarkPins7=1
-MarkNetLabels7=1
-MarkPortsId7=1
-MediaFormat7=Windows Media file (*.wmv,*.wma,*.asf)
-FixedDimensions7=1
-Width7=1024
-Height7=768
-MultiFile7=0
-FramesPerSecond7=25
-FramesPerSecondDenom7=1
-AviPixelFormat7=7
-AviCompression7=cvid Cinepak Codec
-AviQuality7=100
-FFmpegVideoCodecId7=13
-FFmpegPixelFormat7=0
-FFmpegQuality7=80
-WmvVideoCodecName7=Windows Media Video V7
-WmvQuality7=100
+OpenOutput7=0
+OutputFilePath8=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_Assembly\Fab Instructions - Assembly.PDF
+ReleaseManaged8=0
+OutputBasePath8=Manufacturing\
+OutputPathMedia8==VariantName +"_Assembly"
+OutputPathMediaValue8==VariantName +"_Assembly"
+OutputPathOutputer8=[Output Type]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=
+OutputFileName8=Fab Instructions - Assembly.PDF
+OutputFileNameMulti8=
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8=
+OpenOutput8=0
+PromptOverwrite8=0
+PublishMethod8=0
+ZoomLevel8=50
+FitSCHPrintSizeToDoc8=1
+FitPCBPrintSizeToDoc8=1
+GenerateNetsInfo8=1
+MarkPins8=1
+MarkNetLabels8=1
+MarkPortsId8=1
+GenerateTOC8=1
+ShowComponentParameters8=1
+GlobalBookmarks8=0
+PDFACompliance8=Disabled
+PDFVersion8=Default
+OutputFilePath9=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\uINS.wmv
+ReleaseManaged9=0
+OutputBasePath9=Manufacturing\
+OutputPathMedia9=
+OutputPathMediaValue9=
+OutputPathOutputer9=[Output Type]
+OutputPathOutputerPrefix9=
+OutputPathOutputerValue9=
+OutputFileName9=uINS.wmv
+OutputFileNameMulti9=
+UseOutputNameForMulti9=1
+OutputFileNameSpecial9=
+OpenOutput9=1
+PromptOverwrite9=1
+PublishMethod9=5
+ZoomLevel9=50
+FitSCHPrintSizeToDoc9=1
+FitPCBPrintSizeToDoc9=1
+GenerateNetsInfo9=1
+MarkPins9=1
+MarkNetLabels9=1
+MarkPortsId9=1
+MediaFormat9=Windows Media file (*.wmv,*.wma,*.asf)
+FixedDimensions9=1
+Width9=1024
+Height9=768
+MultiFile9=0
+FramesPerSecond9=25
+FramesPerSecondDenom9=1
+AviPixelFormat9=7
+AviCompression9=cvid Cinepak Codec
+AviQuality9=100
+FFmpegVideoCodecId9=13
+FFmpegPixelFormat9=0
+FFmpegQuality9=80
+WmvVideoCodecName9=Windows Media Video V7
+WmvQuality9=100
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Jobs\ODA16xxxx_INERTIAL-SENSE_New_Project_AD16\uINS_r3-0\Manufacturing\VariantName_PCB\
 OpenOutputs2=0
-RelativeOutputPath3=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-0\Manufacturing\VariantName_PCB\
+RelativeOutputPath3=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_PCB\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -840,18 +982,22 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=C:\_Walt\Altium\Projects\Mentor\Mentor_r1-0\Project Outputs\
 OpenOutputs4=1
-RelativeOutputPath5=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\VariantName_Assembly\
+RelativeOutputPath5=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_PCB\Fab Instructions - PCB.PDF
 OpenOutputs5=0
-RelativeOutputPath6=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-0\Manufacturing\VariantName_Assembly\
+RelativeOutputPath6=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\VariantName_Assembly\
 OpenOutputs6=0
-AddToProject6=0
-TimestampFolder6=0
-UseOutputName6=0
-OpenODBOutput6=0
-OpenGerberOutput6=0
-OpenNCDrillOutput6=0
-OpenIPCOutput6=0
-EnableReload6=0
-RelativeOutputPath7=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\uINS.wmv
-OpenOutputs7=1
+RelativeOutputPath7=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_Assembly\
+OpenOutputs7=0
+AddToProject7=0
+TimestampFolder7=0
+UseOutputName7=0
+OpenODBOutput7=0
+OpenGerberOutput7=0
+OpenNCDrillOutput7=0
+OpenIPCOutput7=0
+EnableReload7=0
+RelativeOutputPath8=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r2-1\Manufacturing\VariantName_Assembly\Fab Instructions - Assembly.PDF
+OpenOutputs8=0
+RelativeOutputPath9=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\uINS.wmv
+OpenOutputs9=1
 
