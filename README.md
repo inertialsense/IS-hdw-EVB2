@@ -18,7 +18,7 @@ Use these Hardware Design files as you wish.  Inertial Sense is not liable for a
 
 ------
 
-## Version Info
+## Revision Info
 
 ### r2.1.0
 
