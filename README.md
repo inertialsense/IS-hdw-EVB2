@@ -14,7 +14,7 @@ The EVB-2 PCB assembly design files are provided in Altium Designer format.
 
 ## LICENSE
 
-<img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" width="150" align="left" />
+<img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" width="100" align="right" />
 
 Use these Hardware Design files as you wish.  Inertial Sense is not liable for any claim, damages, or other liability resulting from their use.  See the included *LICENSE* file for details.
 
