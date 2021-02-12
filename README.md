@@ -14,11 +14,24 @@ The EVB-2 PCB assembly design files are provided in Altium Designer format.
 
 ## LICENSE
 
+<img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" width="150" align="" />
+
 Use these Hardware Design files as you wish.  Inertial Sense is not liable for any claim, damages, or other liability resulting from their use.  See the included *LICENSE* file for details.
 
 ------
 
 ## Revision Info
+
+### r2.1.2
+
++ Move TIOA1 (TC input) pin from GPIO1 to GPIO9 for measuring encoder velocity on to GPIO9 (multi-tie).  We would not like to have to tie GPIO9 and GPIO3 together offboard the EVB-2 for wheel encoder input.  We share the QDEC and TC input on the same line for angle and velocity measurement.
+
++ Consider adding a TC input to each of the QDEC channel A lines so all wheel encoder inputs support velocity measurement.
++ Add second CAN transceiver from EVB E70 to H2 and remove CAN jumper.  We can share H2 with uINS and EVB-E70.  Connect transceivers disable line to jumper or EVB disable line.
++ Enlarge fiducials from 0.76mm to 1.0mm on both sides.
++ Fix the I2C line (SDA, SCL) reversal on EVB-2 SAME70.
+
+________________________________________________________________________________
 
 ### r2.1.0
 
